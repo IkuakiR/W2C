@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body 
+#header {
+    display: flex;
+
+}
+
+#header h1 {
+    width: 50vw;
+    padding-left: 10px;
+}
+
+.nav {
+    display: flex;
+    width: 50vw;
+}
+
+.nav li {
+    list-style: none;
+    width:calc(100%/3)
+}
+
+.bkimg {
+    background-image: url(sea.jpg);
+    
+}
